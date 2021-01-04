@@ -325,7 +325,8 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -715,6 +716,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 1.3em;
 }
 
 .med-width-whitespace {
@@ -737,7 +739,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-size: 18px;
+
 }
 
 .portfolio-thumb {
@@ -776,7 +780,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
+
 }
 
 .btn-atomic-tangerine {
