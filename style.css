@@ -685,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: normal;
 }
 
@@ -793,8 +793,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #000000!important;
+    background: #99593c;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
