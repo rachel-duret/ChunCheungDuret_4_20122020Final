@@ -327,6 +327,9 @@ a:hover {
     margin-top: 4px;
     font-size: 20px;
     font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 50px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -370,6 +373,8 @@ a:hover {
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        box-sizing: border-box;
+        text-decoration: none;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -390,6 +395,7 @@ a:hover {
     .nav-center .nav > li {
         float: none;
         display: inline-block;
+     
     }
     .nav-center .site-navigation {
         position: relative;
@@ -408,6 +414,7 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
+  
 }
 
 nav .caret {
@@ -507,7 +514,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 1);
     box-shadow: none;
 }
 
@@ -878,10 +885,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -890,8 +893,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
