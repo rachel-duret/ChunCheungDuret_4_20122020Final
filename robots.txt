@@ -2,3 +2,4 @@
 User-agent: Googlebot
 Disallow: /php/
 Disallow: /js/
+sitemap: https://rachel-duret.github.io/ChunCheungDuret_4_20122020Final/index.html
