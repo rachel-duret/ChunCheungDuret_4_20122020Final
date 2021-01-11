@@ -713,6 +713,12 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+#contact{
+    font-size: larger;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.3em;
+}
 
 h2 {
     font-size: 22px;
